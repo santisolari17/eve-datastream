@@ -1,0 +1,21 @@
+{
+  "name": "eve-datastream",
+  "version": "1.0.0",
+  "description": "mock data to stream and publish to a nats publisher",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nats",
+    "stream",
+    "fs",
+    "cvs"
+  ],
+  "author": "Santiago Pirela",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.4.3"
+  }
+}
