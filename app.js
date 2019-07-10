@@ -3,7 +3,7 @@ const parse = require('csv-parse');
 const options = require('./config/appConfig').CSV_PARSE_OPTIONS
 
 let csvData = [];
-let dataCollection = '/colections/players.csv'
+let dataCollection = '/collections/players.csv'
 const streamOptions = {
     highWatermark: 32 * 1024
 }
