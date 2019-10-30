@@ -16,6 +16,6 @@
   "author": "Santiago Pirela",
   "license": "MIT",
   "dependencies": {
-    "csv-parse": "^4.4.3"
+    "csv-parse": "^4.4.6"
   }
 }
